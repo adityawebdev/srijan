@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat&family=Tilt+Prism&family=Tilt+Warp&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Tilt Prism", cursive;
+}
