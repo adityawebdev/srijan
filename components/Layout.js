@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Head from "next/head";
 import Navbar from "./Navbar";
-import Events from "./Events";
+
 export default function Layout({ children }) {
   return (
     <>
@@ -17,7 +17,7 @@ export default function Layout({ children }) {
 
       <Navbar />
       <main>{children}</main>
-      <Events />
+
       <Footer />
     </>
   );
