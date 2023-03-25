@@ -9,10 +9,10 @@ const Navbar = () => {
     setActive(!active);
   };
   return (
-    <nav className="flex items-center flex-wrap  p-3 bg-indigo">
+    <nav className="flex items-center flex-wrap  p-3 bg-white">
       <Link href="/">
         <a className="inline-flex items-center p-2 mr-4 ">
-          <span className="text-xl text-lightpink  font-bold uppercase tracking-wide">
+          <span className="text-xl text-black  font-bold uppercase tracking-wide">
             Srijan
           </span>
         </a>
@@ -42,24 +42,24 @@ const Navbar = () => {
           active ? "" : "hidden"
         }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
       >
-        <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto text-green">
-          <Link href="/">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  font-bold items-center justify-center hover:bg-green-600 hover:text-white ">
+        <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
+          <Link href="/#events">
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  font-bold items-center justify-center hover:bg-green-600 text-black hover:text-white ">
               Events
             </a>
           </Link>
           <Link href="/team">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-white">
               Team
             </a>
           </Link>
-          <Link href="/">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+          <Link href="/#sponsors">
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-white">
               Sponsors
             </a>
           </Link>
-          <Link href="/">
-            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+          <Link href="#contact">
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-white">
               Contact Us
             </a>
           </Link>

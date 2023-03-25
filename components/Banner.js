@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Carousel from 'react-bootstrap/Carousel';
-
+import Carousel from "react-bootstrap/Carousel";
 
 // IMP --- banner3 keeps breaking, i.e. undefined
 import { banner1, banner2 } from "../assets";
@@ -15,15 +14,15 @@ const Banner = () => {
 
   return (
     <div>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
+      <Carousel activeIndex={index} onSelect={handleSelect} fade>
+        <Carousel.Item interval={500}>
           <Image
             src={banner1}
             className="d-block w-100"
             style={{ objectFit: "cover" }}
           />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={500}>
           <Image
             src={banner2}
             className="d-block w-100"

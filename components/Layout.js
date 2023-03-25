@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Head from "next/head";
 import Navbar from "./Navbar";
+import Pass from "./Pass";
 
 export default function Layout({ children }) {
   return (
@@ -17,7 +18,7 @@ export default function Layout({ children }) {
 
       <Navbar />
       <main>{children}</main>
-
+      <Pass />
       <Footer />
     </>
   );

@@ -2,6 +2,7 @@ import {
   abhiman,
   aryan,
   aditya,
+  akarsh,
   jatin,
   jatin2,
   satya,
@@ -38,6 +39,7 @@ import {
   decathlon,
 } from "./assets";
 
+//?EVENTS DAY 1
 export const d1events = [
   {
     id: "HBIe6hiOQJyBYOaH",
@@ -121,6 +123,7 @@ export const d1events = [
   },
 ];
 
+//?EVENTS DAY 2
 export const d2events = [
   {
     id: "toZm716kDuypQRh9",
@@ -188,6 +191,7 @@ export const d2events = [
   },
 ];
 
+//*************TEAM */
 export const teams = [
   {
     name: "Karuna Sharma",
@@ -215,9 +219,9 @@ export const teams = [
     image: aryan,
   },
   {
-    name: "Golla Brahmananda",
+    name: "Jatin Yadav",
     title: "Treasurer",
-    image: gola,
+    image: jatin,
   },
   {
     name: "Nnimit Sharma",
@@ -227,7 +231,7 @@ export const teams = [
   {
     name: "Akarshan Shahi",
     title: "Co Treasurer",
-    image: nimit,
+    image: akarsh,
   },
   {
     name: "Aditya Sinha",
@@ -279,14 +283,12 @@ export const teams = [
     title: "Event Coordinator",
     image: reshma,
   },
-  {
-    name: "Jatin Yadav",
-    title: "Event Coordinator",
-    image: jatin,
-  },
+
   {
     name: "Manas Pratap Singh",
     title: "Event Coordinator",
     image: manas,
   },
 ];
+
+//???******************SPONSORS

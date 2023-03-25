@@ -1,6 +1,7 @@
 import aryan from "./team/aryan.jpg";
 import abhiman from "./team/abhiman.jpg";
 import aditya from "./team/aditya.jpg";
+import akarsh from "./team/akarsh.jpg";
 import jatin from "./team/jatin.jpg";
 import jatin2 from "./team/jatin2.jpg";
 import gola from "./team/gola.jpg";
@@ -44,6 +45,7 @@ export {
   aryan,
   aditya,
   abhiman,
+  akarsh,
   jatin,
   jatin2,
   satya,
@@ -79,5 +81,5 @@ export {
   leaf,
   musicArt,
   exhibition,
-  decathlon
+  decathlon,
 };

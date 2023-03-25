@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-green mx-auto p-8 bottom-0">
+    <footer className="relative bg-white mx-auto p-8 bottom-0" id="contact">
       <div className="w-full mx-auto flex flex-wrap gap-8 lg:gap-0">
         <div className="flex w-full lg:w-1/2">
           <div className="px-3 md:px-0">
@@ -89,7 +89,8 @@ const Footer = () => {
                 target="_blank"
               >
                 <div className="inline">
-                  <svg className="inline"
+                  <svg
+                    className="inline"
                     xmlns="http://www.w3.org/2000/svg"
                     width="1rem"
                     height="1rem"
@@ -109,8 +110,11 @@ const Footer = () => {
                   </svg>
                 </div>
                 <p>
-                  Bhaskaracharya College of Applied Sciences (University of Delhi)<br/>
-                  Sector 2, Phase 1, Dwarka,<br/>
+                  Bhaskaracharya College of Applied Sciences (University of
+                  Delhi)
+                  <br />
+                  Sector 2, Phase 1, Dwarka,
+                  <br />
                   New Delhi-110075, India
                 </p>
               </a>
