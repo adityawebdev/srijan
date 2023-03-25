@@ -3,14 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   font-family: "Montserrat", sans-serif;
-}
-
-.w-100 {
-  width: 100% !important;
-}
-
-.d-block {
-  display: block !important;
 }
