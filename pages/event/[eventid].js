@@ -3,23 +3,23 @@ import { useRouter } from "next/router";
 import { d1events, d2events } from "../../constants.js";
 import Image from "next/image";
 
-const event = () => {
+const Event = () => {
   const router = useRouter();
   const { eventid } = router.query;
 
-  const event =
+  const Event =
     d1events.find((elem) => elem.id == eventid) ||
     d2events.find((elem) => elem.id == eventid);
 
-  return event ? (
+  return Event ? (
     <section className="p-8">
-      <h1 className="text-xl md:text-3xl font-bold">{event.name}</h1>
+      <h1 className="text-xl md:text-3xl font-bold">{Event.name}</h1>
       <div className="py-4 flex flex-col gap-4">
         <div>
           <Image
-            src={event.image}
+            src={Event.image}
             className="max-w-[250px] self-center"
-            alt={event.name}
+            alt={Event.name}
             height={250}
             width={250}
             style={{ objectFit: "cover" }}
@@ -30,23 +30,23 @@ const event = () => {
             <h3 className="text-md md:text-xl font-semibold">
               About the Event
             </h3>
-            <p className="mt-2">{event.desc}</p>
+            <p className="mt-2">{Event.desc}</p>
           </div>
           <div>
             <h3 className="text-md md:text-xl font-semibold">Timing</h3>
-            <p className="mt-2">{event.timing}</p>
+            <p className="mt-2">{Event.timing}</p>
           </div>
           <div>
             <h3 className="text-md md:text-xl font-semibold">
               Event Coordinators
             </h3>
-            <p className="mt-2 font-bold">{event.cord}</p>
-            <p className="">{event.contact}</p>
+            <p className="mt-2 font-bold">{Event.cord}</p>
+            <p className="">{Event.contact}</p>
           </div>
         </div>
         <div className="mt-4">
           <a
-            href={event.register}
+            href={Event.register}
             rel="noreferrer"
             className="rounded bg-gray-300 hover:bg-gray-400 transition p-2 font-bold cursor-pointer"
             style={{ color: "inherit" }}
@@ -64,7 +64,7 @@ const event = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Decathlon events
+              Decathlon Events
             </a>
           </p>
         </div>
@@ -75,4 +75,4 @@ const event = () => {
   );
 };
 
-export default event;
+export default Event;
