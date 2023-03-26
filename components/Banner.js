@@ -20,10 +20,12 @@ const Banner = () => {
             src={banner1}
             className="d-block w-100"
             style={{ objectFit: "cover" }}
+            alt="banner"
           />
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <Image
+            alt="banner"
             src={banner2}
             className="d-block w-100"
             style={{ objectFit: "cover" }}

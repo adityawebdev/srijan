@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         // <div className="w-full h-[100vh] bg-black flex justify-center items-center">
         //   <HashLoader color={"#ffffff"} loading={loading} size={80} />
         // </div>
-        <Image src={reel} />
+        <Image src={reel} alt="loader" />
       ) : (
         <Layout>
           <Component {...pageProps} />
