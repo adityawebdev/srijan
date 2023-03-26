@@ -34,13 +34,14 @@ const event = () => {
           </div>
           <div>
             <h3 className="text-md md:text-xl font-semibold">Timing</h3>
-            <p className="mt-2">10:00AM</p>
+            <p className="mt-2">{event.timing}</p>
           </div>
           <div>
             <h3 className="text-md md:text-xl font-semibold">
               Event Coordinators
             </h3>
-            <p className="mt-2">Jane Doe - +69 6969696969</p>
+            <p className="mt-2 font-bold">{event.cord}</p>
+            <p className="">{event.contact}</p>
           </div>
         </div>
         <div className="mt-4">

@@ -15,7 +15,7 @@ const team = () => {
             <div className="mb-12">
               <Image
                 src={member.image}
-                className="rounded-full mx-auto shadow-lg max-w-[100px]"
+                className="rounded-full mx-auto  max-w-[100px]"
                 alt={member.name}
                 width={150}
                 height={150}

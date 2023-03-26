@@ -85,7 +85,7 @@ const Footer = () => {
             <div className="pt-4">
               <a
                 className="inline-block no-underline hover:text-black hover:underline py-1"
-                href="https://goo.gl/maps/x56XDLsdkcVP2KC38"
+                href="https://www.google.co.in/maps/place/Bhaskaracharya+College+Of+Applied+Sciences/@28.6001701,77.0677378,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1b31d1255555:0x684c6f99c46dff2f!8m2!3d28.6001701!4d77.0677378!16s%2Fm%2F03crr9z"
                 target="_blank"
               >
                 <div className="inline">
