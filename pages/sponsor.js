@@ -12,7 +12,7 @@ const sponsor = () => {
 
         <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-x-6 lg:gap-xl-12">
           {sponsors.map((member) => (
-            <div className="mb-12">
+            <div className="mb-12" key={member.name}>
               <Image
                 src={member.image}
                 className="rounded-full mx-auto shadow-lg max-w-[100px]"

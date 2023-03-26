@@ -12,7 +12,7 @@ const team = () => {
 
         <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-x-6 lg:gap-xl-12">
           {teams.map((member) => (
-            <div className="mb-12">
+            <div className="mb-12" key={member.name}>
               <Image
                 src={member.image}
                 className="rounded-full mx-auto  max-w-[100px]"
