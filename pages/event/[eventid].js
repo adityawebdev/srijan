@@ -47,6 +47,7 @@ const event = () => {
         <div className="mt-4">
           <a
             href={event.register}
+            rel="noreferrer"
             className="rounded bg-gray-300 hover:bg-gray-400 transition p-2 font-bold cursor-pointer"
             style={{ color: "inherit" }}
             target="_blank"
@@ -61,6 +62,7 @@ const event = () => {
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               className="text-blue cursor-pointer"
               target="_blank"
+              rel="noreferrer"
             >
               Decathlon events
             </a>

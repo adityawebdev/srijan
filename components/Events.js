@@ -39,7 +39,7 @@ const Events = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
           {selected === "one"
             ? d1events.map((event) => (
-                <div className="bg-orange rounded-lg">
+                <div className="bg-orange rounded-lg" key={event.name}>
                   <a href={`/event/${event.id}`} style={{ color: "inherit" }}>
                     <Image
                       src={event.image}
@@ -52,7 +52,11 @@ const Events = () => {
                         {event.name}
                       </p>
                       <p className="">
-                        <a href={event.register} target="_blank">
+                        <a
+                          href={event.register}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           Register
                         </a>
                       </p>
@@ -61,8 +65,12 @@ const Events = () => {
                 </div>
               ))
             : d2events.map((event) => (
-                <div className="bg-orange rounded-lg">
-                  <a href={`/event/${event.id}`} style={{ color: "inherit" }}>
+                <div className="bg-orange rounded-lg" key={event.name}>
+                  <a
+                    href={`/event/${event.id}`}
+                    style={{ color: "inherit" }}
+                    rel="noreferrer"
+                  >
                     <Image
                       src={event.image}
                       className="max-w-[100px]"
@@ -74,7 +82,11 @@ const Events = () => {
                         {event.name}
                       </p>
                       <p className="">
-                        <a href={event.register} target="_blank">
+                        <a
+                          href={event.register}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           Register
                         </a>
                       </p>
