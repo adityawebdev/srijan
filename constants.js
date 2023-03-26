@@ -43,7 +43,7 @@ import {
 //?EVENTS DAY 1
 export const d1events = [
   {
-    id: "HBIe6hiOQJyBYOaH",
+    id: "fashion",
     name: "Fashion Walk",
     image: fashion,
     register: "https://forms.gle/2KCBvCR1TSE3djZ7A",
@@ -54,7 +54,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "eFvFEU6J5YpcS9Y1",
+    id: "friend",
     name: "Find a Friend",
     image: friend,
     register: "https://forms.gle/MiMct1ou3kpMdkW4A",
@@ -65,7 +65,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "zNTLhQz4d9in37fi",
+    id: "singing",
     name: "Solo Singing",
     image: soloSing,
     register: "https://forms.gle/jqc6bjRLQfyBDVXy7",
@@ -76,7 +76,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "S9MjLmEtvJwZnjwr",
+    id: "bands",
     name: "Battle of Bands",
     image: BoB,
     register: "https://forms.gle/uhjGrgoC8uaF3bDx5",
@@ -87,7 +87,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "zrJh0QWvKL2n394i",
+    id: "dance",
     name: "Solo/Duet Dance",
     image: soloDance,
     register: "https://forms.gle/NWsY6e1jkdCJC1cw7",
@@ -98,7 +98,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "fpB9d0BgSIPLWp71",
+    id: "groupDance",
     name: "Group Dance",
     image: groupDance,
     register: "https://forms.gle/qJNZcmfpePubvGVS6",
@@ -109,7 +109,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "ZqQE5KDWEBDSYoiR",
+    id: "mono",
     name: "Mono-act/Monologue",
     image: mono,
     register: "https://forms.gle/fQwWPS8ra3Eu7mRXA",
@@ -120,7 +120,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "pViet4VkFONm4m4O",
+    id: "nukkad",
     name: "Nukkad Natak",
     image: nukkad,
     register: "https://forms.gle/MdmA12ra9AxgpoUB6",
@@ -131,7 +131,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "Cy0gKCsUiDMxWuKV",
+    id: "debate",
     name: "Conventional Debate",
     image: debate,
     register: "https://forms.gle/aHF55YV8aNZWfbx87",
@@ -142,7 +142,7 @@ export const d1events = [
     contact: "+91 8556654242",
   },
   {
-    id: "O5mwW0ybM4vOG3Aq",
+    id: "interjection",
     name: "Interjection",
     image: interjection,
     register: "https://forms.gle/aHF55YV8aNZWfbx87",
@@ -157,7 +157,7 @@ export const d1events = [
 //?EVENTS DAY 2
 export const d2events = [
   {
-    id: "toZm716kDuypQRh9",
+    id: "poetry",
     name: "Black out Poetry",
     image: poetry,
     register: "https://forms.gle/dCk3vbzvfuppd1MV8",
@@ -168,7 +168,7 @@ export const d2events = [
     contact: "+91 8556654242",
   },
   {
-    id: "nWG0j9L8jRnEpJMq",
+    id: "murder",
     name: "Murder Mystery",
     image: murder,
     register: "https://forms.gle/bZM6VoDpzNxDavPP9",
@@ -179,7 +179,7 @@ export const d2events = [
     contact: "+91 8556654242",
   },
   {
-    id: "vwjR2H76Ar7SvSab",
+    id: "shortfilm",
     name: "Short Film Making",
     image: shortFilm,
     register: "https://forms.gle/NJjYAeS6rorniS3DA",
@@ -190,7 +190,7 @@ export const d2events = [
     contact: "+91 8556654242",
   },
   {
-    id: "wS79TjzAbL0Vxkk4",
+    id: "object",
     name: "Object Promo(Reel Making)",
     image: objectPromo,
     register: "https://forms.gle/5dCEpLRoEKLe91Hj6",
@@ -201,7 +201,7 @@ export const d2events = [
     contact: "+91 8556654242",
   },
   {
-    id: "mxxaNIZrHlTEcyJt",
+    id: "leaf",
     name: "Leaf Painting",
     image: leaf,
     register: "https://forms.gle/YhmL1gsc3fqvrtFQ7",
@@ -212,7 +212,7 @@ export const d2events = [
     contact: "+91 8556654242",
   },
   {
-    id: "QZ347i2s6BigzVFW",
+    id: "musicArt",
     name: "Music Art",
     image: musicArt,
     register: "https://forms.gle/H8fQGh8BUd5Bmxpy7",
@@ -223,7 +223,7 @@ export const d2events = [
     contact: "+91 8556654242",
   },
   {
-    id: "vJ3KGR5XIJ4kYdE3",
+    id: "exhibition",
     name: "Exhibition",
     image: exhibition,
     register: "https://forms.gle/8jJmzMRuRQAMMHYAA",
@@ -234,7 +234,7 @@ export const d2events = [
     contact: "+91 8556654242",
   },
   {
-    id: "NoOMzxdELNlUIU7b",
+    id: "decathalon",
     name: "Decathlon",
     image: decathlon,
     register: "",
