@@ -3,6 +3,8 @@ import { d1events, d2events } from "../constants.js";
 import reel_up from "../assets/reel_up.jpeg";
 import reel_down from "../assets/reel_down.jpeg";
 import Image from "next/image";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 const Events = () => {
   const [selected, setSelected] = useState("one");
@@ -16,7 +18,7 @@ const Events = () => {
 
   return (
     <section className="bg-white p-8 my-4" id="events">
-      <h1 className="text-xl md:text-3xl text-green font-bold text-center">
+      <h1 className="text-xl md:text-3xl text-green font-bold text-center ">
         Events
       </h1>
       <div className="p-2 md:p-4">
@@ -36,65 +38,76 @@ const Events = () => {
             Act Two
           </h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
-          {selected === "one"
-            ? d1events.map((event) => (
-                <div className="bg-orange rounded-lg" key={event.name}>
-                  <a href={`/event/${event.id}`} style={{ color: "inherit" }}>
-                    <Image
-                      src={event.image}
-                      className="max-w-[100px]"
-                      alt={event.name}
-                      style={{ objectFit: "cover" }}
-                    />
-                    <div className="p-2">
-                      <p className="text-md md:text-lg font-semibold">
-                        {event.name}
-                      </p>
-                      <p className="">
+        <TrackVisibility partialVisibility>
+          {({ isVisible }) => (
+            <div
+              className={isVisible ? "animate__animated animate__swing" : ""}
+            >
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+                {selected === "one"
+                  ? d1events.map((event) => (
+                      <div className="bg-orange rounded-lg" key={event.name}>
                         <a
-                          href={event.register}
-                          target="_blank"
+                          href={`/event/${event.id}`}
+                          style={{ color: "inherit" }}
+                        >
+                          <Image
+                            src={event.image}
+                            className="max-w-[100px]"
+                            alt={event.name}
+                            style={{ objectFit: "cover" }}
+                          />
+                          <div className="p-2">
+                            <p className="text-md md:text-lg font-semibold">
+                              {event.name}
+                            </p>
+                            <p className="">
+                              <a
+                                href={event.register}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Register
+                              </a>
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    ))
+                  : d2events.map((event) => (
+                      <div className="bg-orange rounded-lg" key={event.name}>
+                        <a
+                          href={`/event/${event.id}`}
+                          style={{ color: "inherit" }}
                           rel="noreferrer"
                         >
-                          Register
+                          <Image
+                            src={event.image}
+                            className="max-w-[100px]"
+                            alt={event.name}
+                            style={{ objectFit: "cover" }}
+                          />
+                          <div className="p-2">
+                            <p className="text-md md:text-lg font-semibold">
+                              {event.name}
+                            </p>
+                            <p className="">
+                              <a
+                                href={event.register}
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Register
+                              </a>
+                            </p>
+                          </div>
                         </a>
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              ))
-            : d2events.map((event) => (
-                <div className="bg-orange rounded-lg" key={event.name}>
-                  <a
-                    href={`/event/${event.id}`}
-                    style={{ color: "inherit" }}
-                    rel="noreferrer"
-                  >
-                    <Image
-                      src={event.image}
-                      className="max-w-[100px]"
-                      alt={event.name}
-                      style={{ objectFit: "cover" }}
-                    />
-                    <div className="p-2">
-                      <p className="text-md md:text-lg font-semibold">
-                        {event.name}
-                      </p>
-                      <p className="">
-                        <a
-                          href={event.register}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Register
-                        </a>
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              ))}
-        </div>
+                      </div>
+                    ))}
+              </div>{" "}
+            </div>
+          )}
+        </TrackVisibility>
       </div>
     </section>
   );

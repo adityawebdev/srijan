@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { d1events, d2events } from "../../constants.js";
 import Image from "next/image";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 const Event = () => {
   const router = useRouter();
@@ -13,8 +15,10 @@ const Event = () => {
 
   return Event ? (
     <section className="p-8">
-      <h1 className="text-xl md:text-3xl font-bold">{Event.name}</h1>
-      <div className="py-4 flex flex-col gap-4">
+      <h1 className="text-xl md:text-3xl font-bold animate__animated animate__jackInTheBox">
+        {Event.name}
+      </h1>
+      <div className="py-4 flex flex-col gap-4 animate__animated animate__flipInX animate__delay-1s">
         <div>
           <Image
             src={Event.image}
