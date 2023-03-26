@@ -10,12 +10,14 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "chart.js": "^3.7.0",
+    "css": "^3.0.0",
     "next": "12.0.10",
     "react": "17.0.2",
     "react-bootstrap": "^2.7.2",
     "react-countup": "^6.1.1",
     "react-dom": "17.0.2",
-    "react-spinners": "^0.13.8"
+    "react-spinners": "^0.13.8",
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
