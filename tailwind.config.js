@@ -10,6 +10,9 @@ module.exports = {
 
   theme: {
     extend: {
+      fontFamily: {
+        harry: ["New Rocker"],
+      },
       colors: {
         white: "#ffffff",
         green: "#126656",
