@@ -6,7 +6,9 @@ const Footer = () => {
     <TrackVisibility partialVisibility>
       {({ isVisible }) => (
         <div
-          className={isVisible ? "animate__animated animate__fadeInUpBig" : ""}
+          className={
+            isVisible ? "animate__animated animate__fadeIn animate__slower" : ""
+          }
         >
           <footer
             className="relative bg-darkMaroon mx-auto p-8 bottom-0"

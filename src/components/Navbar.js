@@ -12,11 +12,7 @@ const Navbar = () => {
   return (
     <TrackVisibility partialVisibility>
       {({ isVisible }) => (
-        <div
-          className={
-            isVisible ? "animate__animated animate__fadeInDownBig" : ""
-          }
-        >
+        <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
           <nav className="flex items-center flex-wrap  p-3 bg-extraDarkMaroon shadow-lg">
             <Link href="/">
               <a className="inline-flex items-center p-2 mr-4 ">
