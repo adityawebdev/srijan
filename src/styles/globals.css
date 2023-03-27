@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat&family=New+Rocker&family=Rubik+Gemstones&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "New Rocker", cursive;
+  overflow-x: hidden;
+}

@@ -1,4 +1,4 @@
-import nobody from "./assets/nobody.jpeg";
+import nobody from "./../assets/nobody.jpeg";
 import {
   abhiman,
   aryan,
@@ -38,7 +38,7 @@ import {
   musicArt,
   exhibition,
   decathlon,
-} from "./assets";
+} from "../assets";
 
 //?EVENTS DAY 1
 export const d1events = [

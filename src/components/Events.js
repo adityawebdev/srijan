@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { d1events, d2events } from "../constants.js";
-import reel_up from "../assets/reel_up.jpeg";
-import reel_down from "../assets/reel_down.jpeg";
+
 import Image from "next/image";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -17,22 +16,22 @@ const Events = () => {
   };
 
   return (
-    <section className="bg-white p-8 my-4" id="events">
-      <h1 className="text-xl md:text-3xl text-green font-bold text-center ">
+    <section className="bg-darkMaroon p-8 " id="events">
+      <h1 className="text-xl md:text-3xl lg:text-4xl text-gold font-bold text-center ">
         Events
       </h1>
       <div className="p-2 md:p-4">
         <div className="text-sm md:text-xl flex items-center justify-center gap-12 p-4">
           <h2
             onClick={() => handleSelect("one")}
-            className="cursor-pointer"
+            className="cursor-pointer  hover:text-maroon bg-gold p-2 rounded-lg"
             style={selected === "one" ? styles : null}
           >
             Act One
           </h2>
           <h2
             onClick={() => handleSelect("two")}
-            className="cursor-pointer"
+            className="cursor-pointer  hover:text-maroon bg-gold p-2 rounded-lg"
             style={selected === "two" ? styles : null}
           >
             Act Two

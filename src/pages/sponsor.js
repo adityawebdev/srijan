@@ -5,9 +5,9 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 const sponsor = () => {
   return (
-    <div className="container px-6 mx-auto pt-12 pb-4 bg-white">
-      <section className="mb-8 text-black text-center">
-        <h2 className="text-xl md:text-3xl font-bold mb-16 text-black capitalize animate__animated animate__jackInTheBox">
+    <div className="container px-6 mx-auto pt-12 pb-4 bg-darkMaroon">
+      <section className="mb-8 text-whitish text-center">
+        <h2 className="text-xl md:text-3xl font-bold mb-16 text-whitish capitalize animate__animated animate__jackInTheBox">
           Our Sponsors
         </h2>
         <TrackVisibility partialVisibility>

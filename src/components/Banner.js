@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 // IMP --- banner3 keeps breaking, i.e. undefined
-import { banner1, banner2 } from "../assets";
+import { banner1, banner2 } from "../../assets";
 import Image from "next/image";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -17,7 +17,11 @@ const Banner = () => {
   return (
     <TrackVisibility partialVisibility>
       {({ isVisible }) => (
-        <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+        <div
+          className={
+            isVisible ? "animate__animated animate__zoomIn -mb-4" : "-mb-4"
+          }
+        >
           <Carousel activeIndex={index} onSelect={handleSelect} fade>
             <Carousel.Item interval={500}>
               <Image

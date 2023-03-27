@@ -12,17 +12,21 @@ const Navbar = () => {
   return (
     <TrackVisibility partialVisibility>
       {({ isVisible }) => (
-        <div className={isVisible ? "animate__animated animate__fadeInUp" : ""}>
-          <nav className="flex items-center flex-wrap  p-3 bg-white border-b-4 border-black">
+        <div
+          className={
+            isVisible ? "animate__animated animate__fadeInDownBig" : ""
+          }
+        >
+          <nav className="flex items-center flex-wrap  p-3 bg-extraDarkMaroon shadow-lg">
             <Link href="/">
               <a className="inline-flex items-center p-2 mr-4 ">
-                <span className="text-xl text-black  font-bold uppercase tracking-wide">
+                <span className="text-xl text-gold  font-bold uppercase tracking-wide">
                   Srijan
                 </span>
               </a>
             </Link>
             <button
-              className=" inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-black ml-auto hover:text-white outline-none "
+              className=" inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-gold ml-auto  outline-none "
               onClick={handleClick}
             >
               <svg
@@ -48,22 +52,22 @@ const Navbar = () => {
             >
               <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
                 <Link href="/#events">
-                  <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  font-bold items-center justify-center hover:bg-green-600 text-black hover:text-white ">
+                  <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded  font-bold items-center justify-center hover:bg-green-600 text-gold hover:text-white ">
                     Events
                   </a>
                 </Link>
                 <Link href="/team">
-                  <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+                  <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gold font-bold items-center justify-center  hover:text-white">
                     Team
                   </a>
                 </Link>
                 <Link href="/sponsor">
-                  <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+                  <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gold font-bold items-center justify-center hover:bg-green-600 hover:text-white">
                     Sponsors
                   </a>
                 </Link>
                 <Link href="#contact">
-                  <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+                  <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gold font-bold items-center justify-center hover:bg-green-600 hover:text-white  ease-in-out">
                     Contact Us
                   </a>
                 </Link>

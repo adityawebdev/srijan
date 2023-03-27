@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import Desc from "../components/Desc";
 import Events from "../components/Events";
 
 export default function Home() {
@@ -6,6 +7,8 @@ export default function Home() {
     <>
       <div>
         <Banner />
+
+        <Desc />
         <Events />
       </div>
     </>

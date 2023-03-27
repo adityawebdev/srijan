@@ -1,16 +1,13 @@
 module.exports = {
-  purge: [
-    "./pages/**/*.{js, ts, jsx, tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
   content: [
-    "./src/app/**/*.{js,ts,jsx,tsx}",
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
     extend: {
       colors: {
@@ -24,6 +21,12 @@ module.exports = {
         lightpink: "#fe86ff",
         babypink: "fd2bff",
         deeppink: "#c202d3",
+        maroon: "#780904",
+        darkMaroon: "#400604",
+        extraDarkMaroon: "#300503",
+        brightRed: "d61c00e",
+        gold: "#ce9530",
+        whitish: "#ebe0c5",
       },
     },
   },

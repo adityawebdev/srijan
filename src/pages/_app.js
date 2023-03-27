@@ -18,8 +18,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {loading ? (
-        <div className="w-full h-[100vh] bg-black flex justify-center items-center">
-          <HashLoader color={"#ffffff"} loading={loading} size={80} />
+        <div className="w-full h-[100vh] bg-darkMaroon flex justify-center items-center">
+          <HashLoader color={"#ce9530"} loading={loading} size={80} />
         </div>
       ) : (
         <Layout>

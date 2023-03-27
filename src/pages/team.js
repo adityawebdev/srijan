@@ -7,8 +7,8 @@ import TrackVisibility from "react-on-screen";
 const team = () => {
   return (
     <div className="container px-6 mx-auto pt-12 pb-4">
-      <section className="mb-8 text-black text-center">
-        <h2 className="text-xl md:text-3xl font-bold mb-16 text-black capitalize animate__animated animate__jackInTheBox">
+      <section className="mb-8 text-whitish text-center">
+        <h2 className="text-xl md:text-3xl font-bold mb-16 text-whitish capitalize animate__animated animate__jackInTheBox">
           Meet the team
         </h2>
         <TrackVisibility partialVisibility>
@@ -29,7 +29,7 @@ const team = () => {
                     />
 
                     <p className="font-bold mb-2 text-xl">{member.name}</p>
-                    <p className="font-semibold">{member.title}</p>
+                    <p className="font-semibold text-white">{member.title}</p>
                   </div>
                 ))}
               </div>
