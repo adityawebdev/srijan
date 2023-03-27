@@ -65,6 +65,7 @@ const Events = () => {
                                 href={event.register}
                                 target="_blank"
                                 rel="noreferrer"
+                                className="hover:text-whitish"
                               >
                                 Register
                               </a>
@@ -95,6 +96,7 @@ const Events = () => {
                                 href={event.register}
                                 target="_blank"
                                 rel="noreferrer"
+                                className="hover:text-whitish"
                               >
                                 Register
                               </a>
