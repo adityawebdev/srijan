@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-bootstrap/Carousel";
 
 // IMP --- banner3 keeps breaking, i.e. undefined
 import { banner1, banner2 } from "../../assets";
@@ -22,8 +22,7 @@ const Banner = () => {
             isVisible ? "animate__animated animate__zoomIn -mb-4" : "-mb-4"
           }
         >
-          testing
-          {/* <Carousel activeIndex={index} onSelect={handleSelect} fade>
+          <Carousel activeIndex={index} onSelect={handleSelect} fade>
             <Carousel.Item interval={500}>
               <Image
                 src={banner1}
@@ -40,7 +39,7 @@ const Banner = () => {
                 style={{ objectFit: "cover" }}
               />
             </Carousel.Item>
-          </Carousel> */}
+          </Carousel>
         </div>
       )}
     </TrackVisibility>
