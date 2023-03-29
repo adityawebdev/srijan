@@ -34,13 +34,19 @@ const Event = () => {
             <h3 className="text-md md:text-xl font-semibold text-whitish">
               About the Event
             </h3>
-            <p className="mt-2 text-whitish">{Event.desc}</p>
+            <p className="mt-2 text-white">{Event.desc}</p>
           </div>
           <div>
             <h3 className="text-md md:text-xl font-semibold text-whitish">
               Timing
             </h3>
             <p className="mt-2 text-white">{Event.timing}</p>
+          </div>
+          <div>
+            <h3 className="text-md md:text-xl font-semibold text-whitish">
+              Venue
+            </h3>
+            <p className="mt-2 text-white">{Event.venue}</p>
           </div>
           <div>
             <h3 className="text-md md:text-xl font-semibold text-whitish">

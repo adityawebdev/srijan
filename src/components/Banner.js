@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 // IMP --- banner3 keeps breaking, i.e. undefined
-import { banner1, banner2 } from "../../assets";
+import banner1 from "../../assets/banner1.jpg";
+import banner2 from "../../assets/banner2.jpg";
 import Image from "next/image";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
