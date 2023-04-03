@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import event from "../../assets/event.png";
+import banner2 from "../../assets/banner2.jpg";
 const Desc = () => {
   return (
     <div className="py-16 bg-darkMaroon">
@@ -8,7 +8,7 @@ const Desc = () => {
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
           <div className="md:5/12 lg:w-2/12">
             <Image
-              src={event}
+              src={banner2}
               alt="logo"
               loading="lazy"
               width="400"
