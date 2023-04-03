@@ -11,7 +11,7 @@ const Footer = () => {
           }
         >
           <footer
-            className="relative bg-darkMaroon mx-auto p-8 bottom-0"
+            className="relative bg-extraDarkMaroon mx-auto p-8 bottom-0"
             id="contact"
           >
             <div className="w-full mx-auto flex flex-wrap gap-8 lg:gap-0">

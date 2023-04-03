@@ -24,7 +24,7 @@ export default function Layout({ children }) {
 
       <Navbar />
       <main className="bg-darkMaroon">{children}</main>
-      <Pass />
+      {/* <Pass /> */}
       <Footer />
     </div>
   );

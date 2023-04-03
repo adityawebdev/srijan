@@ -20,14 +20,27 @@ import {
   swati,
   nitya,
   thumbnail,
+  avlokan,
+  bands,
+  fashion,
+  karaoke,
+  leaf,
+  limelight,
+  murder,
+  nritya,
+  pallate,
+  poetry,
+  solo,
+  tarkshetra,
+  zami,
 } from "../assets";
 
 //?EVENTS DAY 1
 export const d1events = [
   {
     id: "leaf",
-    name: "Leaf Painting",
-    image: thumbnail,
+    name: "The Leafy Affair",
+    image: leaf,
     register: "https://forms.gle/YhmL1gsc3fqvrtFQ7",
     desc: "Leaves will be provided to participants; they’ll have to draw on it.",
     club: "Akriti",
@@ -38,8 +51,8 @@ export const d1events = [
   },
   {
     id: "dance",
-    name: "Solo/Duet Dance",
-    image: thumbnail,
+    name: "Nrityakala",
+    image: nritya,
     register: "https://forms.gle/NWsY6e1jkdCJC1cw7",
     desc: "Inter-College event where participants will perform either solo or as a duo, will be judged separately.",
     club: "Rage",
@@ -50,8 +63,8 @@ export const d1events = [
   },
   {
     id: "debate",
-    name: "Conventional Debate",
-    image: thumbnail,
+    name: "Tarkshetra",
+    image: tarkshetra,
     register: "https://forms.gle/aHF55YV8aNZWfbx87",
     desc: "Conventional debate where students are provided with different topics to speak on, in the form of a competition.",
     club: "Confianza",
@@ -62,8 +75,8 @@ export const d1events = [
   },
   {
     id: "mono",
-    name: "Mono-act/Monologue",
-    image: thumbnail,
+    name: "Limelight",
+    image: limelight,
     register: "https://forms.gle/fQwWPS8ra3Eu7mRXA",
     desc: "Inter-college competition where students from different colleges will deliver speeches in the form of a play.",
     club: "Darpan",
@@ -75,7 +88,7 @@ export const d1events = [
   {
     id: "fashion",
     name: "Fashion Walk",
-    image: thumbnail,
+    image: fashion,
     register: "https://forms.gle/2KCBvCR1TSE3djZ7A",
     desc: "",
     club: "ECA",
@@ -87,7 +100,7 @@ export const d1events = [
   {
     id: "poetry",
     name: "Black out Poetry",
-    image: thumbnail,
+    image: poetry,
     register: "https://forms.gle/dCk3vbzvfuppd1MV8",
     desc: "A paragraph will be given to the participants out of which they have to pick certain words (by blacking out the rest of the words) to make a poem out of it.",
     club: "Atelier",
@@ -99,7 +112,7 @@ export const d1events = [
   {
     id: "bands",
     name: "Battle of Bands",
-    image: thumbnail,
+    image: bands,
     register: "https://forms.gle/uhjGrgoC8uaF3bDx5",
     desc: "Inter-College event showcasing bands from different colleges",
     club: "Moksha",
@@ -115,8 +128,8 @@ export const d1events = [
 export const d2events = [
   {
     id: "shortfilm",
-    name: "Short Film Making",
-    image: thumbnail,
+    name: "Avlokan",
+    image: avlokan,
     register: "https://forms.gle/NJjYAeS6rorniS3DA",
     desc: "Film clubs of different colleges will be participating in this event. They will have to make a short film in the college campus itself, a general theme will be provided. Judges will be viewing the short films at the end of the day to declare the winner",
     club: "Film Odyssey",
@@ -128,7 +141,7 @@ export const d2events = [
   {
     id: "musicArt",
     name: "Music Pallate",
-    image: thumbnail,
+    image: pallate,
     register: "https://forms.gle/H8fQGh8BUd5Bmxpy7",
     desc: "Participation will be in pairs. Both will be starting a sketch and when the music changes, they will exchange their sheets and continue each others’ drawing. Best pair will be picked at the end.",
     club: "Akriti",
@@ -139,8 +152,8 @@ export const d2events = [
   },
   {
     id: "nukkad",
-    name: "Nukkad Natak",
-    image: thumbnail,
+    name: "Zami Parasti",
+    image: zami,
     register: "https://forms.gle/MdmA12ra9AxgpoUB6",
     desc: "Street theater is a form of theatrical performance and presentation in outdoor public spaces. ",
     club: "Darpan",
@@ -152,8 +165,8 @@ export const d2events = [
 
   {
     id: "murder",
-    name: "Murder Mystery",
-    image: thumbnail,
+    name: "Who Done It ?",
+    image: murder,
     register: "https://forms.gle/bZM6VoDpzNxDavPP9",
     desc: "Participants will have to solve a mystery with a set of given clues.",
     club: "Atelier",
@@ -165,8 +178,8 @@ export const d2events = [
 
   {
     id: "singing",
-    name: "Solo Singing",
-    image: thumbnail,
+    name: "Desh Ki Dhun",
+    image: solo,
     register: "https://forms.gle/jqc6bjRLQfyBDVXy7",
     desc: "Inter-College event showcasing singing talents from different colleges",
     club: "Moksha",
@@ -190,8 +203,8 @@ export const d2events = [
   },
   {
     id: "friend",
-    name: "Find a Friend",
-    image: thumbnail,
+    name: "Karaoke with Coffee",
+    image: karaoke,
     register: "https://forms.gle/MiMct1ou3kpMdkW4A",
     desc: "",
     club: "ECA",
@@ -304,5 +317,10 @@ export const teams = [
 
 //???******************SPONSORS
 export const sponsors = [
-  { name: "koi nhi h abhi aap krdo sponser :)", image: nobody },
+  { name: "koi nhi h  :)", image: nobody, class: "" },
+  { name: "koi nhi h  :)", image: nobody, class: "animate__delay-1s" },
+  { name: "koi nhi h  :)", image: nobody, class: "animate__delay-2s" },
+  { name: "koi nhi h  :)", image: nobody, class: "animate__delay-3s" },
+  { name: "koi nhi h a:)", image: nobody, class: "animate__delay-4s" },
+  { name: "koi nhi h a:)", image: nobody, class: "animate__delay-5s" },
 ];
